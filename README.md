@@ -11,12 +11,12 @@
 
 <!--SOLUTIONS-->
 
-![Day](https://badgen.net/badge/01/⭐%20⭐/green)
-![Day](https://badgen.net/badge/02/⭐%20⭐/green)
-![Day](https://badgen.net/badge/03/⭐%20⭐/green)
-![Day](https://badgen.net/badge/04/⭐%20⭐/green)
-![Day](https://badgen.net/badge/05/⭐%20⭐/green)
-![Day](https://badgen.net/badge/06/⭐%20⭐/green)
+![Day](https://badgen.net/badge/01/⭐⭐/green)
+![Day](https://badgen.net/badge/02/⭐⭐/green)
+![Day](https://badgen.net/badge/03/⭐⭐/green)
+![Day](https://badgen.net/badge/04/⭐⭐/green)
+![Day](https://badgen.net/badge/05/⭐⭐/green)
+![Day](https://badgen.net/badge/06/⭐⭐/green)
 ![Day](https://badgen.net/badge/07/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/08/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/09/%E2%98%86%E2%98%86/gray)

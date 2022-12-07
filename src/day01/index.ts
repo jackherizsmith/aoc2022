@@ -1,21 +1,17 @@
 import run from "aocrunner";
 
-const parseInput = (rawInput: string) => rawInput;
+const parseInput = (rawInput: string) => rawInput.split("\n\n").map((a) => a.split("\n").map((a) => +a));
 
-const part1 = (rawInput: string) => {
-  const input = parseInput(rawInput)
-    .split("\n\n")
-    .map((a) => a.split("\n").map((a) => +a));
+const part1 = (rawInput: string): number => {
+  const input: number[][] = parseInput(rawInput);
   return input.reduce((mostCalories: number, elf) => {
     const calories: number = elf.reduce((count, calories) => count + calories, 0);
     return calories > mostCalories ? calories : mostCalories;
   }, 0);
 };
 
-const part2 = (rawInput: string) => {
-  const input = parseInput(rawInput)
-    .split("\n\n")
-    .map((a) => a.split("\n").map((a) => +a));
+const part2 = (rawInput: string): number => {
+  const input: number[][] = parseInput(rawInput);
   const topMostCalories: number[] = input.reduce((runningMostCalories, elf) => {
     const calories = elf.reduce((count, calories) => count + calories, 0);
     if (runningMostCalories.length < 3 || runningMostCalories.some((thisCalories) => calories > thisCalories)) {
@@ -65,5 +61,5 @@ run({
     ],
     solution: part2,
   },
-  onlyTests: true,
+  onlyTests: false,
 });

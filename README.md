@@ -11,12 +11,12 @@
 
 <!--SOLUTIONS-->
 
-![Day](https://badgen.net/badge/01/⭐⭐/green)
-![Day](https://badgen.net/badge/02/⭐⭐/green)
-![Day](https://badgen.net/badge/03/⭐⭐/green)
-![Day](https://badgen.net/badge/04/⭐⭐/green)
-![Day](https://badgen.net/badge/05/⭐⭐/green)
-![Day](https://badgen.net/badge/06/⭐⭐/green)
+[![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85/green)](src/day01)
+![Day](https://badgen.net/badge/02/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/03/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/04/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/05/%E2%98%86%E2%98%86/gray)
+![Day](https://badgen.net/badge/06/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/07/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/08/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/09/%E2%98%86%E2%98%86/gray)
@@ -69,9 +69,9 @@ yarn start 1
 
 ```
 Day 01
-Time part 1: -
-Time part 2: -
-Both parts: -
+Time part 1: 0.244ms
+Time part 2: 0.629ms
+Both parts: 0.8729169999999999ms
 ```
 
 ```
@@ -243,8 +243,8 @@ Both parts: -
 ```
 
 ```
-Total stars: 0/50
-Total time: 0ms
+Total stars: 2/50
+Total time: 0.873ms
 ```
 
 <!--/RESULTS-->
